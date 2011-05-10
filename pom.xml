@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <name>wsstar-parents-rootbuilder</name>
+  <artifactId>${project.name}</artifactId>
+  <groupId>org.petalslink</groupId>
+  <version>SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>wsstar-libraries-parent</module>
+    <module>wsstar-libraries-api-parent</module>
+    <module>wsstar-libraries-jaxbimpl-parent</module>
+  </modules>
+  <build>
+    <defaultGoal>install</defaultGoal>
+  </build>
+  <!-- repositories>
+    <repository>
+      <id>ebmws-public.release</id>
+      <url>http://maven2.ebmwebsourcing.com/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>ebmws-public.snapshot</id>
+      <url>http://maven2.ebmwebsourcing.com/public-snapshot</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories -->
+</project>
