@@ -1,0 +1,9 @@
+[submodule "wsstar-libraries-parent"]
+	path = wsstar-libraries-parent
+	url = http://git.petalslink.com/WS-STAR-LIBRARIES/Modules/parents/wsstar-libraries-parent.git
+[submodule "wsstar-libraries-api-parent"]
+	path = wsstar-libraries-api-parent
+	url = http://git.petalslink.com/WS-STAR-LIBRARIES/Modules/parents/wsstar-libraries-api-parent.git
+[submodule "wsstar-libraries-jaxbimpl-parent"]
+	path = wsstar-libraries-jaxbimpl-parent
+	url = http://git.petalslink.com/WS-STAR-LIBRARIES/Modules/parents/wsstar-libraries-jaxbimpl-parent.git
